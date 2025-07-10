@@ -1,1 +1,1 @@
-# to-do-app-basic-
+# NO UI JUST FOR JS PRACTICE
