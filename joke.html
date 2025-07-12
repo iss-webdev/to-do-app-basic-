@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Joke Generator</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 100px;
+      
+    }
+    #jokeBtn{
+      cursor: pointer;
+      padding: 10px;
+      font-size: 15px;
+      transition: transform .3s ease-in-out;
+    }
+    #jokeBtn:hover{
+      background-color: black;
+      color: white;
+      transform: scaleX(2.3);
+    }
+    #jokeBox {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      max-width: 500px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>😂 Random Joke Generator</h1>
+  <button id="jokeBtn">Tell Me a Joke</button>
+  <p id="jokeBox">Click the button for a laugh!</p>
+
+  <script src="joke.js"></script>
+
+</body>
+</html>
